@@ -8,6 +8,10 @@ namespace Classes_StudentTeacher
 {
     internal class Student : Person
     {
+        public Student(int n)
+        {
+            base.SetAge(n);
+        }
         public void GoToClasses()
         {
             Console.WriteLine("I’m going to class.");

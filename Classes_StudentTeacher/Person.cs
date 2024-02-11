@@ -10,7 +10,7 @@ namespace Classes_StudentTeacher
     {
         int age;
 
-        public void SetAge(int n)
+        protected void SetAge(int n)
         {
             age = n;
         }

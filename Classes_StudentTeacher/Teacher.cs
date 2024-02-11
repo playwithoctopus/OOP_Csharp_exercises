@@ -10,6 +10,11 @@ namespace Classes_StudentTeacher
     {
         string subject;
 
+        public Teacher(int n, string sbj)
+        {
+            base.SetAge(n);
+            subject = sbj;
+        }
         public void Explain()
         {
             Console.WriteLine("Explanation begins");

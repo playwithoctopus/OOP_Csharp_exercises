@@ -6,20 +6,18 @@ namespace Classes_StudentTeacher
     {
         static void Main()
         {
-            Person person = new Person();
-            Student student = new Student();
-            Teacher teacher = new Teacher();
+            Person person = new(); //= new Person();
+            Student student = new(21);
+            Teacher teacher = new(30, "Math");
 
             Console.WriteLine("Person says hello:");
             person.Greet();
             Console.WriteLine();
             Console.WriteLine("Student is greeting:");
-            student.SetAge(21);
             student.Greet();
             student.ShowAge();
             Console.WriteLine();
             Console.WriteLine("Teacher says hello:");
-            teacher.SetAge(30);
             teacher.Greet();
             teacher.Explain();
         }
