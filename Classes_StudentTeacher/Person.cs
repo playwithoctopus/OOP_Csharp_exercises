@@ -10,7 +10,7 @@ namespace Classes_StudentTeacher
     {
         int age;
 
-        protected void SetAge(int n)
+        public void SetAge(int n)
         {
             age = n;
         }
@@ -18,7 +18,7 @@ namespace Classes_StudentTeacher
         {
             return age;
         }
-        protected void Greet()
+        public void Greet()
         {
             Console.WriteLine("Hello everyone!");
         }
