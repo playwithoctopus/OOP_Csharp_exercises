@@ -8,5 +8,11 @@ namespace Classes_StudentTeacher
 {
     internal class Teacher : Person
     {
+        string subject;
+
+        public void Explain()
+        {
+            Console.WriteLine("Explanation begins");
+        }
     }
 }
